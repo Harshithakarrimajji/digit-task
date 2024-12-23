@@ -1,0 +1,129 @@
+/* Full page background */
+.custom-background {
+    height: 100vh;
+    width: 100%;
+    background: url('https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg?semt=ais_hybrid') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Form container */
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.95); /* Light background with transparency */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Reduced gap between form elements */
+}
+
+/* Form labels */
+.form-label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4C6B3C;
+}
+
+/* Input fields */
+.form-control {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    font-size: 16px; /* Normal input font size */
+    border: 1px solid #D0E8D8;
+    border-radius: 8px;
+    background-color: #F6F9F3;
+    color: #4C6B3C;
+    box-sizing: border-box;
+    height: 50px; /* Normal height for input fields */
+}
+
+/* Hover effect for input fields */
+.form-control:hover,
+.form-control:focus {
+    border-color: #A1C8A6 !important;
+    background-color: #E4F1E4 !important;
+    color: #4C6B3C;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Submit button */
+.btn-submit {
+    background-color: #84C4A2;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 50px; /* Normal height for button */
+}
+
+/* Button hover effect */
+.btn-submit:hover {
+    background-color: #6DAF8F;
+}
+
+/* Registration link */
+.link-login {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #6D8F6D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Normal font size for link */
+    padding: 8px;
+}
+
+/* Link hover effect */
+.link-login:hover {
+    text-decoration: underline;
+    color: #84C4A2;
+}
+
+/* Dropdown (Role Select) */
+select.form-control {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px; /* Normal font size */
+    border: 1px solid #D0E8D8;
+    background-color: #F6F9F3;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    color: #4C6B3C;
+    height: 50px; /* Normal height for dropdown */
+    position: relative;
+    z-index: 10;
+}
+
+/* Hover and Focus effect for Dropdown */
+select.form-control:hover,
+select.form-control:focus {
+    border-color: #A1C8A6 !important;
+    background-color: #E4F1E4 !important;
+}
+
+/* Dropdown Arrow Customization */
+select.form-control option {
+    padding: 12px; /* Normal padding for option elements */
+    font-size: 16px; /* Normal font size for options */
+}
+
+/* Dropdown border and background effect */
+select.form-control {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
